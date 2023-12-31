@@ -11,6 +11,8 @@
 		0065CFFE2B421AE1009A15BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065CFFD2B421AE1009A15BE /* ContentView.swift */; };
 		0065D0002B421AE2009A15BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0065CFFF2B421AE2009A15BE /* Assets.xcassets */; };
 		0065D0032B421AE2009A15BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0065D0022B421AE2009A15BE /* Preview Assets.xcassets */; };
+		0065D00C2B4223C7009A15BE /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065D00B2B4223C7009A15BE /* GameModel.swift */; };
+		0065D00E2B4223DA009A15BE /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065D00D2B4223DA009A15BE /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0065CFFD2B421AE1009A15BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0065CFFF2B421AE2009A15BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0065D0022B421AE2009A15BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0065D00B2B4223C7009A15BE /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		0065D00D2B4223DA009A15BE /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				0065CFFD2B421AE1009A15BE /* ContentView.swift */,
 				0065CFFF2B421AE2009A15BE /* Assets.xcassets */,
 				0065D0012B421AE2009A15BE /* Preview Content */,
+				0065D00B2B4223C7009A15BE /* GameModel.swift */,
+				0065D00D2B4223DA009A15BE /* GameViewModel.swift */,
 			);
 			path = scp;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0065D00E2B4223DA009A15BE /* GameViewModel.swift in Sources */,
 				0065CFFE2B421AE1009A15BE /* ContentView.swift in Sources */,
 				0065CFFC2B421AE1009A15BE /* scpApp.swift in Sources */,
+				0065D00C2B4223C7009A15BE /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
