@@ -1,14 +1,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = GameViewModel()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+            Text("\(viewModel.score)")
+            Button(action: {viewModel.addScore()})
+//            Grid {
+//                ForEach(0..<viewModel.getBoardSize().y, id:\.self) { y in
+//                    GridRow {
+//                        ForEach(0..<viewModel.getBoardSize().x, id:\.self) { x in
+//                            Rectangle().fill(y == viewModel.getPlayerPos().y && x == viewModel.getPlayerPos().x ? .blue : .white).border(.black, width: 2)
+//                                .onTapGesture {
+//                                    viewModel.handleTileOnTap(position: Vector2(x: x, y: y))
+//                                }
+//                        }
+//                    }
+//                }
+//            }
+//            Text(viewModel.displayedMessage)
+        }.padding()
     }
 }
 
