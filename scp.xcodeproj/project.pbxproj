@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0049E3002B52E47100149C17 /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049E2FF2B52E47100149C17 /* RankingView.swift */; };
+		0049E3022B52E94000149C17 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049E3012B52E94000149C17 /* HomeScreenView.swift */; };
+		0049E3042B52EC5300149C17 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049E3032B52EC5300149C17 /* GameView.swift */; };
+		0049E3062B52F6AF00149C17 /* GameEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049E3052B52F6AF00149C17 /* GameEndView.swift */; };
 		0065CFFC2B421AE1009A15BE /* scpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065CFFB2B421AE1009A15BE /* scpApp.swift */; };
 		0065CFFE2B421AE1009A15BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065CFFD2B421AE1009A15BE /* ContentView.swift */; };
 		0065D0002B421AE2009A15BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0065CFFF2B421AE2009A15BE /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0049E2FF2B52E47100149C17 /* RankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
+		0049E3012B52E94000149C17 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		0049E3032B52EC5300149C17 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		0049E3052B52F6AF00149C17 /* GameEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEndView.swift; sourceTree = "<group>"; };
 		0065CFF82B421AE1009A15BE /* scp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0065CFFB2B421AE1009A15BE /* scpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scpApp.swift; sourceTree = "<group>"; };
 		0065CFFD2B421AE1009A15BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +69,10 @@
 				0065D0012B421AE2009A15BE /* Preview Content */,
 				0065D00B2B4223C7009A15BE /* GameModel.swift */,
 				0065D00D2B4223DA009A15BE /* GameViewModel.swift */,
+				0049E2FF2B52E47100149C17 /* RankingView.swift */,
+				0049E3012B52E94000149C17 /* HomeScreenView.swift */,
+				0049E3032B52EC5300149C17 /* GameView.swift */,
+				0049E3052B52F6AF00149C17 /* GameEndView.swift */,
 			);
 			path = scp;
 			sourceTree = "<group>";
@@ -143,10 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0049E3062B52F6AF00149C17 /* GameEndView.swift in Sources */,
 				0065D00E2B4223DA009A15BE /* GameViewModel.swift in Sources */,
 				0065CFFE2B421AE1009A15BE /* ContentView.swift in Sources */,
+				0049E3002B52E47100149C17 /* RankingView.swift in Sources */,
+				0049E3022B52E94000149C17 /* HomeScreenView.swift in Sources */,
 				0065CFFC2B421AE1009A15BE /* scpApp.swift in Sources */,
 				0065D00C2B4223C7009A15BE /* GameModel.swift in Sources */,
+				0049E3042B52EC5300149C17 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

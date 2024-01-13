@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct scpApp: App {
+    @StateObject private var viewModel = GameViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: viewModel)
         }
     }
 }
